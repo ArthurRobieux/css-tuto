@@ -1,0 +1,21 @@
+@import "../modules/common-ui/vars.module.scss";
+
+@font-face {
+  font-family: "PleaseWriteMeASong";
+  src: url("../assets/fonts/PleaseWriteMeASong.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../assets/fonts/Roboto-Light.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto-Light", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $font-size;
+  color: $black;
+  background: rgb(179, 179, 179);
+}

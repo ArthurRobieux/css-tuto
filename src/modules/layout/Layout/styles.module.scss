@@ -1,0 +1,10 @@
+@import "../../common-ui/vars.module.scss";
+
+.layout {
+  color: black;
+  margin: 0 auto;
+  padding: $padding-2 $padding-4 $padding-4 $padding-4;
+  @include for-mobile-only {
+    padding: $padding-4 $padding-2;
+  }
+}

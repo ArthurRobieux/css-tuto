@@ -1,0 +1,57 @@
+// RESPONSIVE
+
+$responsive-width: 1024px;
+
+@mixin for-mobile-only {
+  @media only screen and (max-width: $responsive-width) {
+    @content;
+  }
+  @media only screen and (max-width: ($responsive-width * 2)) and (min-device-pixel-ratio: 2) {
+    @content;
+  }
+}
+
+// MARGIN / PADDING
+
+$margin-1: 10px;
+$margin-2: 20px;
+$margin-3: 30px;
+$margin-4: 40px;
+$margin-5: 50px;
+$margin-6: 60px;
+
+$padding-1: 10px;
+$padding-2: 20px;
+$padding-3: 30px;
+$padding-4: 40px;
+$padding-5: 50px;
+$padding-6: 60px;
+
+// FONT SIZE
+
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-big: 20px;
+$font-size-bigger: 35px;
+
+// COLORS
+
+$color-1: #ffcdb2;
+$color-2: #ffb4a2;
+$color-3: #e5989b;
+$color-4: #b5838d;
+$color-5: #6d6875;
+
+$black: #393939;
+$gray-light: lightgray;
+
+// OTHER
+
+$border-radius: 8px;
+
+$input-height: 40px;
+$button-height: 40px;
+
+$app-max-width: 1000px;
+
+$border-radius: 5px;

@@ -1,0 +1,53 @@
+@import "../vars.module.scss";
+
+.button {
+  height: $button-height;
+  border-radius: $border-radius;
+  outline: none;
+  padding: 0 $padding-1;
+  border: none;
+  background: $color-2;
+  color: white;
+  font-size: $font-size-small;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-family: "RobotoLight";
+  min-width: 120px;
+  box-sizing: border-box;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.invert {
+  background: none;
+  color: $color-2;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.selected {
+  transform: scale(0.9);
+  opacity: 0.8;
+}
+
+.hidden {
+  color: $color-2;
+}
+
+.maxWidth {
+  width: 100%;
+}
+
+.loader {
+  position: absolute;
+}

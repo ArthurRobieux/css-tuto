@@ -1,0 +1,41 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  color: lightgray;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.4;
+}
+
+.switch {
+  display: inline-block;
+  width: 32px;
+  height: 16px;
+  padding: 3px;
+  border-radius: 11px;
+  background: gray;
+  margin: 0 8px;
+  transition: all 0.4s;
+  outline: none;
+}
+
+.circle {
+  position: relative;
+  left: 0px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #232323;
+  transition: all 0.2s;
+}
+
+.active {
+  background: burlywood;
+  .circle {
+    left: 16px;
+  }
+}
